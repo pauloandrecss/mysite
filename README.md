@@ -1,8 +1,8 @@
 ## Blog 
 
-Este projeto é um blog simples utilizando Django como uma Framework Full-Stack
+Este projeto é um blog simples, utilizando Django como uma Framework Full-Stack. 
 
-É possivel a criação de posts e a adição de comentarios aos posts ja criados, os comentarios necessitam de aprovação de administradores, gerando mais segurança aos conteudos publicados.
+É possível a criação de posts e a adição de comentários aos posts já criados, os comentários necessitam de aprovação de administradores, gerando mais segurança aos conteúdos publicados.
 
 <br>
 
@@ -45,7 +45,7 @@ $ python manage.py migrate
 $ python manage.py createsuperuser
 ```
 
-Siga os passos e preencha as informações do seu super usuario que usaremos depois
+Siga os passos e preencha as informações do seu super usuário que usaremos depois. 
 
 * Agora com tudo pronto inicie o servidor utilizando o comando:
 
