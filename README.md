@@ -23,26 +23,28 @@ $ git clone https://github.com/pauloandrecss/mysite.git
 
 ```bash
 $ cd mysite
-$ python -m venv venv
+$ python3 -m venv venv
 ```
 
 * Agora podemos iniciar nosso ambiente virtual e instalar as bibliotecas necessarias:
   
 ```bash
-$ venv/Scripts/Activate
+$ source venv/bin/activate - Caso utilize linux
+$ venv/Scripts/Activate - Caso utilize windows
+
 $ pip install -r requirements.txt
 ```
 
 * Com tudo instalado podemos criar a estrutura no nosso banco de dados:
 
 ```bash
-$ python manage.py migrate
+$ python3 manage.py migrate
 ```
 
 * E criar um super usuario para termos controles de administrador em nosso Blog:
 
 ```bash
-$ python manage.py createsuperuser
+$ python3 manage.py createsuperuser
 ```
 
 Siga os passos e preencha as informações do seu super usuário que usaremos depois. 
@@ -50,8 +52,10 @@ Siga os passos e preencha as informações do seu super usuário que usaremos de
 * Agora com tudo pronto inicie o servidor utilizando o comando:
 
 ```bash
-$python manage.py runserver
+$ python3 manage.py runserver
 ```
+obs: Caso esteja utilizando windows substitua o comando python3 por apenas python.
+<br>
 <br>
 Acesse http://127.0.0.1:8000/ ou digite localhost:8000 em seu navegador e utilize nosso Blog.
 <br>
